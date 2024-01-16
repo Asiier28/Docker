@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: asiier28/docker:latest, asiier28/docker:${{ github.sha }}
+          tags: dockerasierperez/docker:latest, dockerasierperez/docker:${{ github.sha }}
